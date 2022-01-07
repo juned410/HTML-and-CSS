@@ -1,0 +1,49 @@
+/* .first{
+  width: 400px;
+  height: 400px;
+  background-color: rosybrown;
+  position: static;
+  top: 100px;
+}
+.second{
+  width: 400px;
+  height: 400px;
+  background-color: teal;
+  position:relative;
+  left: 100px;
+  top: 100px;
+}
+.third{
+  width: 400px;
+  height: 400px;
+  background-color: slateblue;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+} */
+/* body{
+  background-image: url(/html/asset/bk.jpg);
+  background-size: ;
+} */
+.main {
+  background-color: rosybrown;
+}
+
+.first {
+  height: 300px;
+  width: 300px;
+  background-color: chocolate;
+}
+.second {
+  height: 300px;
+  width: 300px;
+  background-color: maroon;
+
+  left: 300px;
+  top: 1000px;
+}
+.third {
+  height: 300px;
+  width: 300px;
+  background-color: darkblue;
+}

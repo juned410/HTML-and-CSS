@@ -1,0 +1,45 @@
+`<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function getDetails() {
+        var ele = document.getElementById("country");
+        var ele1 = document.getElementById("state");
+        var ele2 = document.getElementById("city");
+        var ele3 = document.getElementById("contact");
+        var address= ele2.value+","+ele1.value+"-"+ele.value
+        document.getElementById("address").innerHTML=address
+        console.log(address);
+
+        // console.log(ele.value, ele1.value, ele2.value);
+
+        // console.log(ele.value) ;
+        // console.log(ele1.value);
+        // console.log(ele2.value);
+        // console.log(ele3.value);
+      }
+    </script>
+  </head>
+  <body>
+    Country Name <input id="country" type="text" value="India" />
+    <br />
+    <br/>
+    State Name <input id="state" type="text" value="Maharashtra" />
+    <br />
+    <br/>
+    City Name <input id="city" type="text" value="Nanded" /> 
+    <br/>
+    <br/>
+    City Name <input id="contact" type="text" value="9359306022" /> 
+    <br>
+    <br>
+    <button
+      style="background-color: rgba(176, 190, 212, 0.472)"
+      onclick="getDetails()">Get Details</button>
+      <h1 id="address"></h1>
+  </body>
+</html>
