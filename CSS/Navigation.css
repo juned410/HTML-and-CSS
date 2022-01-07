@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: auto;
+    height: 100vh;
+    background-color: silver;
+}
+.navigation-bar{
+        width: 100%;
+        background-color: teal  ;
+        height: 75px;
+}
+.brand-logo{
+        float: left;
+        width: 200px;
+}        
+.brand-logo h3{
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size:35px;
+
+}
+.anchor{
+    width: 700px;
+    float: left;
+    height: 70px;
+    background-color: wheat;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+li{
+    border-radius:0% 100% 0% 100%;
+    background-color: rgba(46, 131, 180, 0.746);
+    padding: 10px;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 251, 250);
+    padding: 0px 15px;
+}
+.search-bar{
+    float: right;
+}
