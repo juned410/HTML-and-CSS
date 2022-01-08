@@ -1,0 +1,403 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* display: none; */
+}.M1 {
+    position: relative;
+}
+.brand_logo {
+    width: auto;
+    height: fit-content;
+}
+.brand_logo img{
+    height: 100px;
+}
+.space {
+    height: 100px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-content: center;
+    position: fixed;
+    z-index: 4  ;
+}
+  
+.des h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    z-index: 2;
+}
+  
+  /* .brand_logo is end */
+.search_box {
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    transform: translate(0%, -50%);
+    background-color: rgb(0, 167, 157);
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.search_box:hover > .search_txt {
+    width: 240px;
+    padding: 0 6px;
+    float: left;
+}
+.search_btn {
+    text-decoration: none;
+    color: black;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(0, 167, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 0.8s;
+    line-height: 30px;
+    width: 0px;
+}
+  
+/* search_bar is end */
+  
+
+#nav {
+    background:rgb(0,167,157, 0.9);
+    height: 30px;
+    width: 1350px;
+    z-index: 3;
+    position: fixed;
+    top: 100px; 
+    transition: 0.3s;
+}
+#nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+  
+#nav ul a {
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+    font-size: 25px;
+    margin: 0px 45px;
+    padding: 0px 30px;
+}
+#nav ul a:hover {
+    color: white;
+    background: black;
+    height: 30px;
+    border-radius: 0px 10px 0px 10px;
+}
+.m1{
+    position: relative;
+    top: 130px;
+}
+.m1 img{
+    position: absolute;
+    height: 400px;
+    width: 1350px;
+}
+.dess{
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    color: white;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.dess h2{
+    position: absolute;
+    top: 150px;
+    left: 65px;
+    justify-content: center;
+}
+.dess p{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    justify-content: center;
+}
+.dess h4 a{
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+}
+.m2{
+    position: absolute;
+    top: 500px;
+    height: 500px;
+    width: 1350px;
+    /* background-color: yellow; */
+}
+.m2 h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: black;
+    position: absolute;
+    top: 40px;
+    left: 425px;
+    display: block;
+    font-size: 50px;
+}
+.comb{
+    position: relative;
+    display: flex;
+    margin: 150px 60px;
+    border: 1px solid black;
+    height: 500px;
+    width: 1200px;
+    padding-top: 30px;
+}
+.comb p{
+    font-size: 25px;
+    justify-content: center;
+    margin: 0px 0px 0px 60px;
+}
+.i1{
+    position: absolute;
+    left: 100px;
+    height: 250px;
+    width:150px ;
+}
+.i1 img{
+    height: 300px;
+    width: 200px;
+}
+.i1 p{
+    padding-top: 30px;
+}
+.i2{
+    position: absolute;
+    left: 350px;
+    height: 250px;
+    width:150px ;
+    margin-top: -40px;
+}
+.i2 img{
+    height: 380px;
+    width: 300px;
+}
+.i2 p{
+    margin-left: 100px;
+}
+
+.i3{
+    position: absolute;
+    left: 650px;
+    height: 250px;
+    width:150px ;
+}
+.i3 img{
+    height: 300px;
+    width: 200px;
+}
+.i4{
+    position: absolute;
+    left: 950px;
+    height: 250px;
+    width:150px ;
+}
+.i4 img{
+    height: 300px;
+    width: 200px;
+}
+#carouselExampleControls{
+ position: absolute;
+ top: 2500px;
+ background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.screen{
+    position: absolute;
+    top: 3100px;
+    left: 100px;
+}
+.p1{
+    position: absolute;
+    left:-23px;
+    text-transform: uppercase;
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.p1 h1{
+    letter-spacing: 2px;
+}
+.p1 h1 small{
+    font-size: z;
+}
+.p2{
+    position: absolute;
+    left: 560px;
+    text-transform: uppercase;
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    float: right;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer {
+    position: absolute;
+    top: 3700px;
+    width: 100%;
+    height: 630px;
+    background-color: #000;
+    color: white;
+    z-index: 5;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer img{
+    height: 80px;
+    border-radius: 50px;
+    position: absolute;
+    top: 5px;
+    left: 550px;
+}
+.footer h1{
+    margin: 90px 350px 0px 460px;
+}
+.footer hr{
+    margin: 380px 80px 0px 80px;
+    color: rgb(118,118,118);
+    size: 1px;
+}
+  
+.container{
+    position: relative;
+    left: 80px;
+    display: flex;
+}
+.f1{
+    position: absolute;
+    top: 25px;
+    left: 100px;
+ }
+.f1 ul a{
+    color: rgb(118,118,118);
+}
+.f1 ul li {
+    margin: 0px 0px 9px;
+    list-style: none;
+}
+.f1 ul a:hover{
+    text-decoration: underline;
+}
+.f2{
+    position: absolute;
+    top: 25px;
+    left: 350px;
+}
+.f2 ul a{
+    color: rgb(118,118,118);
+}
+.f2 ul li {
+    margin: 0px 0px 9px;
+    list-style: none;
+}
+.f2 ul a:hover{
+    text-decoration: underline;
+}
+.f3{
+    position: absolute;
+    top: 25px;
+    left: 600px;
+}
+.f3 ul a{
+    color: rgb(118,118,118);
+}
+.f3 ul li {
+    margin: 0px 0px 9px;
+    list-style: none;
+}
+.f3 ul a:hover{
+    text-decoration: underline;
+}
+.f4{
+    position: absolute;
+    top: 25px;
+    left: 880px;
+}
+.f4 ul a{
+    color: rgb(118,118,118);
+}
+.f4 ul li {
+    margin: 0px 0px 9px;
+    list-style: none;
+}
+.f4 ul a:hover{
+    text-decoration: underline;
+}
+.about ul {
+    float: right;
+    display: flex;
+    list-style: none;
+    margin: 30px 100px 0px;
+    
+}
+.about ul a{
+    padding: 10px;
+    color: rgb(118,118,118);
+}
+.about ul a:hover{
+    color: white;
+    font-size: 25px;
+}
+.text {
+    display: flex;
+    margin: 25px 0px 0px 100px;
+}
+.text h5{
+    color: rgb(118,118,118);
+    font-size: 15px;
+}
+.text p{
+    margin: 0px 0px 0px 20px;
+    font-size: 18px;
+}
+  

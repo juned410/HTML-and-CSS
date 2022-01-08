@@ -1,0 +1,52 @@
+.main {
+  width: 1000px;
+  height: 500px;
+  background-color: darkslategray;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.f1 {
+  height: 200px;
+  width: 200px;
+  background-color: darkturquoise;
+  /* flex-grow: 2 ; */
+}
+.f2 {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  /* flex-grow: 1; */
+  flex-shrink: 2;
+}
+.f3 {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  /* flex-grow: 1; */
+}
+.f4 {
+  height: 200px;
+  width: 200px;
+  background-color: burlywood;
+}
+.f5 {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+}
+.f6 {
+  height: 200px;
+  width: 200px;
+  background-color: lightgreen;
+}
+.f7 {
+  height: 200px;
+  width: 200px;
+  background-color: purple;
+}
+.f8 {
+  height: 200px;
+  width: 200px;
+  background-color: coral;
+}

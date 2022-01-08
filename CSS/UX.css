@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    width: auto;
+    height: 100px;
+    background-color: rgb(95, 123, 160);
+}
+.images{
+    width: auto;
+    height: 500px;
+    background-color: lightgray;
+}
+.cards{
+    width: auto;
+    height: 700px;
+    background-color:lightgreen;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.crd{
+    width: 250px;
+    height: 300px;
+    background-color: maroon;
+    margin: 5px 5px;
+}
+.para{
+    width: auto;
+    height: 400px;
+    background-color: olive;
+}
+.footer{
+    width: auto;
+    height: 300px;
+    background-color: hotpink;
+    border-bottom: 50px solid black;
+}
